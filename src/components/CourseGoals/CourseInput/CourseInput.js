@@ -80,7 +80,7 @@ const CourseInput = (props) => {
 return (
   <form onSubmit={formSubmitHandler}>
     {/* <FormControl className={!isValid && 'invalid'}> */}
-    <div className={`${styles.['form-control']} ${!isValid && styles.invalid}`}>
+    <div className={`${styles['form-control']} ${!isValid && styles.invalid}`}>
       {/* <label style={{ color: !isValid ? "red" : "" }}>Course Goal</label> */}
       <label>Course Goal</label>
       <input
